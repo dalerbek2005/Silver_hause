@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* heder start*/
+header{
+    width: 100%;
+    height: 800px;
+}
+header .logo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header_top{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+header .header_top ul{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+head .header_top ul li a{
+    color:#bab9b9;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+header .header_top ul li a:hover{
+    color: #4581b7;
+    border-bottom: 2px solid #4581b7;
+    padding-bottom: 8px;
+}
+header .header_buttom {
+    margin-top: 20px;
+    width: 100% ;
+    height: 400px;
+    background: url(./shaxsiy/orta.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+/* heder end*/
+/* section start*/
+section{
+    width: 100%;
+    height: 585px;
+    display: flex;
+    justify-content: space-between;
+}
+section .section_left{
+    width: 57%;
+    height: 540px;
+    background-color: #f0f0f0;
+    padding: 50px 100px 100px 40px;
+}
+section .section_left h2{
+    font-size: 20px;
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+section .section_left p{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #7f7f7f;
+line-height: 30px;
+margin-top: 20px;
+
+}
+section .section_right{
+    width: 40%;
+    height: 540px;
+   background-color: #f0f0f0;
+   padding: 50px 290px 100px 40px;
+}
+section .section_right h2{
+    font-size: 20px;
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+section .section_right p{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #7f7f7f;
+line-height: 30px;
+margin-bottom: 50px;
+}
+/* section end*/
+/* footer start*/
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    background-color: ;
+}
+footer .tag p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    margin-bottom: 10px;
+}
+    footer .tag h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    margin-bottom: 10px;
+    }
+/* footer end*/
+@media(max-width:300px){
+    /* heder start*/
+header{
+    width: 100%;
+    height:auto;
+}
+header .logo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header_top{
+    display: none;
+}
+}
+header .header_buttom {
+    margin-top: 20px;
+    width: 100% ;
+    height: 400px;
+    background: url(./shaxsiy/orta.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+/* heder end*/
+/* section start*/
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+section .section_left{
+    width: 48%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 50px 100px 100px 40px;
+}
+section .section_left h2{
+    font-size: 20px;
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+section .section_left p{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #7f7f7f;
+line-height: 30px;
+margin-top: 20px;
+
+}
+section .section_right{
+    width: 48%;
+    height: auto;
+   background-color: #f0f0f0;
+   padding: 50px 290px 100px 40px;
+}
+section .section_right h2{
+    font-size: 20px;
+    color: #4581b7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+section .section_right p{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #7f7f7f;
+line-height: 30px;
+margin-bottom: 50px;
+}
+/* section end*/
+/* footer start*/
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    margin-top: 50px;
+}
+footer .tag p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    margin-bottom: 10px;
+}
+    footer .tag h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    margin-bottom: 10px;
+    }
+/* footer end*/
